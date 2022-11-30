@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls -l)
+for FILE in *; do echo $FILE; done
